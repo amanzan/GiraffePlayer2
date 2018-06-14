@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.amanzan'
+
 def bType = "lazyLoad" //lazyLoad,full, blank is normal
 def version = "0.1.19"
 def ijkVersion = "0.8.8"
